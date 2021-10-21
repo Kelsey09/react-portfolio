@@ -99,7 +99,7 @@ class Blog extends Component {
   }
 
   render() {
-    const blogRecords = this.state.blogItems.map(blogItem => {
+    const blogRecords = this.state.blogItems.map((blogItem) => {
       return <BlogItem key={blogItem.id} blogItem={blogItem} />;
     });
 
